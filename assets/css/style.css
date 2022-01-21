@@ -14,16 +14,25 @@ main{
   color:rgba(0,0,0,.8);
   display: flex;
   align-items: center;
-
+  height:90vh;
 }
 
 header{
   display: flex;
   width:100vw;
-  height:70px;
+  height:10vh;
   justify-content: space-between;
   align-items:center;
   background-color: #fff;
+}
+
+article{
+  width:70%;
+  margin:0 auto;
+  display: flex;
+  height:100%;
+  flex-direction:column;
+  justify-content: center;
 }
 
 ul{
@@ -50,10 +59,6 @@ h2{
   align-items:center;
   /* width:70%; */
   padding-left: 80px;
-
-}
-
-.nav1{
 }
 
 .nav1 li,
@@ -68,11 +73,25 @@ h2{
 section{
   width:100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap:10px;
 }
 
 figure img{
   width:100%;
+}
+
+h1{
+  margin-bottom:1rem;
+}
+
+figure{
+  position:relative;
+}
+
+figcaption{
+  position:absolute;
+  bottom:20px;
+  right:20px;
 }
